@@ -1,26 +1,23 @@
 body {
   font-family: 'helvetica neue', arial, sans-serif;
   font-weight: 300;
-  background: url(linedpaper.png) repeat;
+  background: orange;
 }
 #wrapper {
-  width: 960px;
+  width: 1300px;
   margin: 20px auto;
 }
-/*Making H1 color red*/
+#bilal {
+	width: 150px;
+	border: 25px solid purple; 
+}
 h1, h2, h3 {
-	color: red;
+	color: purple;
 }
 #summary {
-	color:red;
+	text-decoration:underline;
 }
 .unicorn {
-	color:purple;
+	text-decoration:underline;
 }
-img { 
-width:120px;
-}
-#bilal {
-	width: 50px;
-	border: 25px dotted purple; 
-}
+
