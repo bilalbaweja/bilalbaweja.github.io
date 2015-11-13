@@ -1,23 +1,34 @@
 body {
-  font-family: 'helvetica neue', arial, sans-serif;
-  font-weight: 300;
-  background: orange;
-}
-#wrapper {
-  width: 1300px;
-  margin: 20px auto;
-}
-#bilal {
-	width: 150px;
-	border: 25px solid purple; 
-}
-h1, h2, h3 {
-	color: purple;
-}
-#summary {
-	text-decoration:underline;
-}
-.unicorn {
-	text-decoration:underline;
+  margin-top: 30px;
 }
 
+body {  margin-bottom: 30px;
+}
+.navbar-default {
+    background-color: orange;
+    border-color: #e7e7e7;
+}
+.navbar-default .navbar-brand {
+    color: white;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #333;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+.navbar-default .navbar-toggle {
+    border-color: white;
+}
+.title{
+  font-style: italic; 
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #333;
+}
+.heading {
+  text-decoration: underline;
+}
